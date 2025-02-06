@@ -1,6 +1,6 @@
 # React Dropdown
 
-This React Dropdown component and storybook demonstrates:
+This React Dropdown component demonstrates:
 
 - Single and multiple selection capabilities.
 - Searchability with filtering.
@@ -8,7 +8,7 @@ This React Dropdown component and storybook demonstrates:
 - Customizable option rendering.
 - Toggleable features (e.g., enabling/disabling search).
 
-## Features
+## Built With
 - [Babel](https://babeljs.io/) for modern JavaScript and JSX transpilation.
 - [Rollup](https://rollupjs.org/) for build.
 - Bundle generated in `cjs` and `esm` formats.
