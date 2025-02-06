@@ -9,7 +9,9 @@
     "storybook": "storybook dev",
     "build": "rollup -c",
     "npm:details": "npm pack --dry-run",
-    "npm:publish": "npm run build && npm publish --access public"
+    "npm:publish": "npm run build && npm publish --access public",
+    "build-storybook": "storybook build",
+    "deploy-storybook": "npm run build-storybook && gh-pages -d storybook-static"
   },
   "keywords": [
     "react",
@@ -34,6 +36,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "@storybook/react-vite": "^8.5.3",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

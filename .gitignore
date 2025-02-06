@@ -5,3 +5,4 @@ dist
 # Output of 'npm pack'
 *.tgz
 .DS_Store
+storybook-static
