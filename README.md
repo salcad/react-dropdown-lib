@@ -20,5 +20,11 @@ This React Dropdown component and storybook demonstrates:
 - `npm run build` - build package into `dist/` folder.
 - `npm publish` - publish your package to.
 
+## Links
+
+- Github: https://github.com/salcad/react-dropdown-lib
+- Demo: https://salcad.github.io/react-dropdown-lib
+- NPM: https://www.npmjs.com/package/react-dropdown-lib
+
 ### License
 MIT license
